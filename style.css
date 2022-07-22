@@ -129,6 +129,43 @@
         justify-content: end;
     }
     
-    .call-to-action {}
+    .call-to-action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: solid white;
+    }
+    
+    .call-to-action .container {
+        background-color: #3882F6;
+        height: 80px;
+        margin: 40px 80px;
+        padding: 20px 40px;
+        display: flex;
+        color: white;
+        gap: 30px;
+        align-items: center;
+    }
+    
+    .call-to-action .container .button {
+        flex-shrink: 0;
+        border: 2px solid white;
+        height: 20px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .call-to-action .container .header {
+        padding-top: 20px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    .call-to-action .container p {
+        font-size: 18px;
+        margin-top: -2px;
+    }
     
     .footer {}
