@@ -1,88 +1,119 @@
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.hero {
-    flex: 1;
-    background-color: #1F2937;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 0 50px 40px 50px;
-}
-
-.hero .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 50px;
-    margin-top: 6px;
-}
-
-.hero .header .logo {
-    font-weight: 700;
-}
-
-.hero .header ul {
-    display: flex;
-    margin: 0;
-}
-
-.hero .header li {
-    list-style-type: none;
-    margin: 0 8px;
-}
-
-.hero .header a {
-    color: white;
-    font-size: 10px;
-    text-decoration: none;
-}
-
-.hero .container {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero .container .content {
-    display: flex;
-    flex-direction: column;
-}
-
-.hero .container .title {
-    font-weight: 600;
-    font-size: 48px;
-}
-
-.hero .container .button {
-    background-color: #3882F6;
-    width: 100px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10%;
-}
-
-.hero .container img {
-    height: 200px;
-    width: 200px;
-}
-
-.information {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    height
-}
-
-.call-to-action {}
-
-.footer {}
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hero {
+        flex: 1;
+        background-color: #1F2937;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px 40px 50px;
+    }
+    
+    .hero .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 50px;
+        margin-top: 6px;
+    }
+    
+    .hero .header .logo {
+        font-weight: 700;
+    }
+    
+    .hero .header ul {
+        display: flex;
+        margin: 0;
+    }
+    
+    .hero .header li {
+        list-style-type: none;
+        margin: 0 8px;
+    }
+    
+    .hero .header a {
+        color: white;
+        font-size: 10px;
+        text-decoration: none;
+    }
+    
+    .hero .container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .hero .container .content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hero .container .title {
+        font-weight: 600;
+        font-size: 48px;
+    }
+    
+    .hero .container .button {
+        background-color: #3882F6;
+        width: 100px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10%;
+    }
+    
+    .hero .container img {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .information {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+    }
+    
+    .information .header {
+        color: #1F2937;
+        font-size: 36px;
+        font-weight: 600;
+        padding: 20px;
+    }
+    
+    .information .container {
+        flex: 1;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .information .box {
+        flex: 1;
+        height: 100px;
+        width: 100px;
+        margin: 0 10px;
+        border: 2px solid #3882F6;
+        background: transparent;
+        border-radius: 4%;
+    }
+    
+    .information .text {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100px;
+        margin: 6px 0 0 10px;
+    }
+    
+    .call-to-action {}
+    
+    .footer {}
