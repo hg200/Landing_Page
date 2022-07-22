@@ -168,4 +168,12 @@
         margin-top: -2px;
     }
     
-    .footer {}
+    .footer {
+        flex: 1;
+        background-color: #1F2937;
+        color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
