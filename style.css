@@ -73,6 +73,12 @@
         padding: 4px;
     }
     
+    .hero .button:hover {
+        background-color: white;
+        color: #3882F6;
+        border-radius: 10px;
+    }
+    
     .hero .container img {
         flex: 1;
         height: 500px;
